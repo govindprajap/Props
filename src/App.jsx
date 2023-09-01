@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Card from './component/Card'
 import './App.css'
+import Password from './Password'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,12 +14,14 @@ function App() {
 
   return (
     <>
-    <Card username = "Govind" 
+    {/* <Card username = "Govind" 
     btnText = "Click Me"/>
     <Card username= "Neha"
     btnText = "Visit Me"
+   
 
-    />
+    /> */}
+    <Password/>
 
     </>
   )
